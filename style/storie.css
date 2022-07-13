@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Clementine";
+  src: url(../fonts/clem-regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Clementine";
+  src: url(../fonts/clem-italic.ttf) format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Clementine";
+  src: url(../fonts/clem-bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: "Clementine", Arial, serif;
+  background-image: url(../img/salvate-per-web/webp/paper-texture.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.nav-li {
+  list-style-type: none;
+  text-align: center;
+  margin: 10px;
+}
+
+.dropdown-menu {
+  background-color: #d7dbde;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.dropdown-toggle {
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+}
+
+footer {
+  margin-top: 180px;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
