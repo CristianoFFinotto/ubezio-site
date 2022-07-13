@@ -60,3 +60,7 @@ footer {
   right: 20px;
   display: none;
 }
+
+footer a {
+  text-decoration: none;
+}

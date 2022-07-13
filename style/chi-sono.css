@@ -57,3 +57,7 @@ span {
 footer {
   margin-top: 180px;
 }
+
+footer a {
+  text-decoration: none;
+}
