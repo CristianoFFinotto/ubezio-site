@@ -55,7 +55,29 @@ span {
 }
 
 footer {
-  margin-top: 180px;
+  margin-top: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    margin-top: 270px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  footer {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  footer {
+    margin-top: 275px;
+  }
+
+  main {
+    margin-top: 80px;
+  }
 }
 
 footer a {

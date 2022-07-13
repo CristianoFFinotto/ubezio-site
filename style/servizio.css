@@ -94,6 +94,28 @@ footer {
   margin-top: 180px;
 }
 
+footer {
+  margin-top: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    margin-top: 270px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  footer {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  footer {
+    margin-top: 110px;
+  }
+}
+
 footer a {
   text-decoration: none;
 }
